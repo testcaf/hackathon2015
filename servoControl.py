@@ -40,7 +40,7 @@ pwm = GPIO.PWM(11, frequencyHertz)
 # First, know the pulse time for the position you want.
 leftPosition = 0.75
 rightPosition = 2.5
-middlePosition = (rightPostion - leftPosition) / 2 + leftPosition
+middlePosition = (rightPosition - leftPosition) / 2 + leftPosition
 
 # I'll store a sequence of positions for use in a loop later on.
 positionList = [leftPosition, middlePosition, rightPosition, middlePosition]
